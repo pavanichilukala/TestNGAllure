@@ -1,0 +1,1 @@
+package epam.dto;\n\nimport lombok.AllArgsConstructor;\nimport lombok.Getter;\nimport lombok.NoArgsConstructor;\nimport lombok.Setter;\n\n@Getter\n@Setter\n@NoArgsConstructor\n@AllArgsConstructor\npublic class ApiResponse {\n    private Integer code;\n    private String type;\n    private String message;\n}
