@@ -1,0 +1,1 @@
+package epam.dto;\n\nimport lombok.AllArgsConstructor;\nimport lombok.Getter;\nimport lombok.NoArgsConstructor;\nimport lombok.Setter;\n\n@Getter\n@Setter\n@NoArgsConstructor\n@AllArgsConstructor\npublic class Tag {\n    private Long id;\n    private String name;\n}\n
